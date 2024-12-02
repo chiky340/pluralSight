@@ -1,11 +1,13 @@
 :root {
-  --color-primary: #2584ff;
-  --color-secondary: #00d9ff;
-  --color-accent: #ff3400;
-  --color-headings: #1b0760;
-  --color-body: #918ca4;
-  --color-body-darker: #5c5577;
-  --color-border: #ccc;
+  --color-primary: #ff1675;
+  --color-secondary: #1b1834;
+  --color-accent: #242145;
+  --color-headings: #fff;
+  --color-headings-darker: #130f25;
+  --color-body: #eeeeee; /* for the text*/
+  --color-body-darker: #a5aacf; /* for the top links*/
+  --color-text-darker: #130f25; /* for the top links*/
+  --color-link-pink: #d60056;
   --border-radius: 30px;
 }
 *,
