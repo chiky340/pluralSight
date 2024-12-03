@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  background: var(--color-text-darker);
   font-family: inter, Aral, Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
@@ -130,6 +131,7 @@ a {
   display: flex;
   background: #130f25;
   list-style: none;
+  margin: 0 7.5rem;
 }
 
 .menu--link {
