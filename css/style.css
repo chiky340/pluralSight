@@ -75,7 +75,7 @@ a {
   border: 0;
   cursor: pointer;
   font-weight: bold;
-  font-size: 10rem;
+  font-size: 1.6rem;
   padding: 1.2rem 3.4rem;
   text-transform: uppercase;
   white-space: nowrap;
@@ -119,6 +119,11 @@ a {
 }
 .btn--outline:hover {
   background: var(--color-border);
+}
+
+.btn-small {
+  font-size: 10rem;
+  margin: 0;
 }
 
 /* nav containers */
@@ -194,9 +199,66 @@ ul li {
 
 /* nav nav */
 
+.nav-universl {
+  background: #242145;
+}
+
+.nav-universal--container {
+  display: flex;
+  margin: 0 7.5rem;
+  padding: 2px;
+}
+
+.menu-link a {
+  color: #a5aacf;
+  font-size: 1.5rem;
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.main-logo {
+  height: 2.4rem;
+  width: 12.2rem;
+}
+
+.ps-nav-menu {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.ps-item-main {
+  display: flex;
+  gap: 4rem;
+  margin: 0;
+  text-wrap: nowrap;
+  align-items: center;
+  height: 7rem;
+}
+
+.ps-item-utility {
+  display: flex;
+  gap: 3rem;
+  margin: 0;
+  padding-left: 1.9rem;
+}
 /* icon */
 
 .icon {
   width: 40px;
   height: 40px;
+  fill: white;
+}
+
+.icon--search {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-cont {
+  display: flex;
+  margin: 0 0 0 4rem;
+  padding: 0;
 }
