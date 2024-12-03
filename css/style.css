@@ -122,14 +122,15 @@ a {
 }
 
 /* nav containers */
+.nav-mega {
+  background: #130f25;
+  list-style: none;
+}
 
 .nav-mega--container {
   display: flex;
-  background: #130f25;
-  list-style: none;
   margin: 0 7.5rem;
   height: 4.6rem;
-
   padding: 2px;
 }
 
@@ -189,4 +190,13 @@ ul li {
 
 .page-list--container {
   margin-left: 15rem;
+}
+
+/* nav nav */
+
+/* icon */
+
+.icon {
+  width: 40px;
+  height: 40px;
 }
