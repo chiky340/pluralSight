@@ -124,3 +124,36 @@ a {
     font-size: 1.5rem;
   }
 }
+/* nav containers */
+
+.nav-mega--container {
+  display: flex;
+  background: #130f25;
+  list-style: none;
+}
+
+.menu--link {
+  outline: none;
+  display: flex;
+  border: 0;
+  align-items: center;
+  background-color: inherit;
+}
+
+.menu--link__img {
+  margin: 0.5rem;
+}
+
+.ps-page {
+  color: #a5aacf;
+  font-size: 1.4rem;
+}
+
+.menu--link__img {
+  font-size: 1.4rem;
+  color: #a5aacf;
+}
+
+ul li {
+  list-style-type: none;
+}
