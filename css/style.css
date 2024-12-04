@@ -45,7 +45,7 @@ h3 {
 }
 
 p {
-  margin-top: 0;
+  margin: 0;
 }
 
 @media screen and(min-width: 1024px) {
@@ -124,6 +124,16 @@ a {
 .btn-small {
   font-size: 10rem;
   margin: 0;
+}
+
+.btn-small--primary {
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 999px;
+  padding: 1.8rem 3.4rem;
+  margin-top: 2rem;
 }
 
 /* nav containers */
@@ -267,8 +277,8 @@ ul li {
 
 .grid-card {
   background: #18142e;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-evenly;
   padding: 5rem;
   margin: 4rem 1.5rem;
   border-radius: 2.4rem;
@@ -276,4 +286,27 @@ ul li {
 
 .grid-card__header {
   color: #ff1675;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.grid-card__text {
+  font-size: 1.7rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  letter-spacing: 5;
+}
+
+.grid-card-h1 {
+  margin: 0 0 1rem;
+  padding: 0;
+  font-size: 4.8rem;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.grid-card--img {
+  display: inline-block;
+  max-height: 448px;
 }
