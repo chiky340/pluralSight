@@ -262,3 +262,10 @@ ul li {
   margin: 0 0 0 4rem;
   padding: 0;
 }
+
+/* grid card */
+
+.grid-card {
+  background: #18142e;
+  display: grid;
+}
