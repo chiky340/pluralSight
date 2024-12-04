@@ -268,4 +268,9 @@ ul li {
 .grid-card {
   background: #18142e;
   display: grid;
+  grid-template-columns: re;
+}
+
+.grid-card__header {
+  color: #ff1675;
 }
