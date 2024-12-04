@@ -276,12 +276,20 @@ ul li {
 /* grid card */
 
 .grid-card {
-  background: #18142e;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#18142e+0,2b1352+50,39134a+100 */
+  background: linear-gradient(
+    135deg,
+    #18142e 0%,
+    #2b1352 50%,
+    #39134a 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
   display: flex;
   justify-content: space-evenly;
   padding: 5rem;
   margin: 4rem 1.5rem;
   border-radius: 2.4rem;
+  max-width: 100%;
 }
 
 .grid-card__header {
@@ -306,7 +314,13 @@ ul li {
   line-height: normal;
 }
 
+.grid-card-head {
+  padding: 1.5rem;
+  width: 60%;
+}
 .grid-card--img {
-  display: inline-block;
-  max-height: 448px;
+  padding: 1.5rem;
+}
+.grid-card-img {
+  width: 100%;
 }
