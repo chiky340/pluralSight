@@ -276,14 +276,7 @@ ul li {
 /* grid card */
 
 .grid-card {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#18142e+0,2b1352+50,39134a+100 */
-  background: linear-gradient(
-    135deg,
-    #18142e 0%,
-    #2b1352 50%,
-    #39134a 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
+  background: linear-gradient(to bottom, #18142e 0%, #2b1352 66%, #39134a 100%);
   display: flex;
   justify-content: space-evenly;
   padding: 5rem;
@@ -311,7 +304,7 @@ ul li {
   padding: 0;
   font-size: 4.8rem;
   font-weight: bold;
-  line-height: normal;
+  line-height: 1;
 }
 
 .grid-card-head {
