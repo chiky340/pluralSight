@@ -280,7 +280,6 @@ ul li {
   display: flex;
   justify-content: space-evenly;
   padding: 5rem;
-  margin: 4rem 1.5rem;
   border-radius: 2.4rem;
   max-width: 100%;
 }
@@ -316,4 +315,51 @@ ul li {
 }
 .grid-card-img {
   width: 100%;
+}
+/* hero container */
+
+.hero-container {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1b1834+0,35166b+45,731750+100 */
+  background: linear-gradient(
+    to bottom,
+    #1b1834 0%,
+    #35166b 45%,
+    #731750 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  padding: 4rem 1.5rem;
+}
+.hero-topics {
+  background-image: url(../img/bf-banner-desktop-left.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin-top: 7rem;
+  align-items: start;
+}
+
+.hero-img {
+  display: inline-block;
+}
+
+.hero-img img {
+  margin: 0 1rem 1rem 1rem;
+}
+
+.hero-topics-title {
+  font-size: 2.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-topics-card-container,
+.hero-topics-header {
+  padding: 0 1.5rem;
+}
+
+.hero-topics-header a {
+  color: #fff;
+}
+.hero-topics-card-container {
+  display: flex;
+  flex-wrap: wrap;
 }
