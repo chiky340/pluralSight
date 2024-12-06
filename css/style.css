@@ -136,6 +136,11 @@ a {
   margin-top: 2rem;
 }
 
+.btn-small__primary {
+}
+.btn-small__outline {
+}
+
 /* nav containers */
 .nav-mega {
   background: #130f25;
@@ -227,10 +232,13 @@ ul li {
   display: flex;
   align-items: center;
   margin: 0;
+  position: relative;
 }
 .main-logo {
   height: 2.4rem;
   width: 12.2rem;
+  position: relative;
+  bottom: -5px;
 }
 
 .ps-nav-menu {
