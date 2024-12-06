@@ -487,3 +487,24 @@ ul li {
   letter-spacing: normal;
   font-size: 1.7rem;
 }
+
+.flex-block-cont {
+  display: flex;
+  align-items: center;
+}
+
+.flex-block-cont article,
+.flex-block-img-cont {
+  padding: 0 1.5rem;
+}
+
+.flex-block-cont article {
+  width: 80%;
+}
+.flex-block-img-cont {
+  display: flex;
+  justify-content: center;
+}
+.flex-block-img {
+  width: 100%;
+}
