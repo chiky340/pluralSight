@@ -126,24 +126,6 @@ a {
   margin: 0;
 }
 
-.btn-small--primary {
-  background: var(--color-primary);
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: bold;
-  border-radius: 999px;
-  padding: 1.8rem 3.4rem;
-  margin-top: 2rem;
-}
-
-.btn-small__primary {
-  background: var(--color-primary);
-  color: #fff;
-  font-size: 1.2rem;
-  margin: 0;
-  border-radius: 999px;
-  font-weight: 800;
-}
 .btn-small__outline {
   background: #1b1834;
   color: var(--color-body);
@@ -157,7 +139,30 @@ a {
   background: var(--color-border);
 }
 
+.btn--accent {
+  background: transparent;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #1a2737;
+  border: 1px solid #1a2737;
+  border-radius: 999px;
+  padding: 1.8rem 3.4rem;
+}
+
+.btn-small--primary {
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 800;
+  border-radius: 999px;
+  padding: 1.8rem 3.4rem;
+}
 /* nav containers */
+.nav-section {
+  position: sticky;
+  top: 0;
+}
+
 .nav-mega {
   background: #130f25;
   list-style: none;
@@ -463,4 +468,22 @@ ul li {
 
 .main {
   background: #f4f7fa;
+}
+
+/* flex blocks */
+
+.flex-block-head p,
+.flex-block-head h2 {
+  color: rgb(19, 15, 37);
+}
+
+.flex-block-head h2 {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.flex-block-head p {
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: 1.7rem;
 }
