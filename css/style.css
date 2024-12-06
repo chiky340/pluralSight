@@ -365,3 +365,9 @@ ul li {
 }
 
 /* company container header */
+
+.company-cont-header {
+  color: #130f25;
+  font-size: 1.9rem;
+  margin: 0 0 2, 5rem;
+}
