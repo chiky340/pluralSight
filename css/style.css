@@ -95,12 +95,12 @@ a {
   background: var(--color-secondary);
   color: #fff;
   border-radius: 8px;
-  padding: 3px 15px;
+  padding: 5px 15px;
   flex-direction: column;
   align-items: flex-start;
   border: 1px solid var(--color-border);
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 500;
   margin: 0;
 }
 .btn--secondary:hover {
@@ -137,14 +137,31 @@ a {
 }
 
 .btn-small__primary {
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+  border-radius: 999px;
+  font-weight: 800;
 }
 .btn-small__outline {
+  background: #1b1834;
+  color: var(--color-body);
+  border: 2px solid var(--color-border);
+  font-size: 1.2rem;
+  margin: 0;
+  border-radius: 999px;
+  font-weight: 800;
+}
+.btn-small__outline:hover {
+  background: var(--color-border);
 }
 
 /* nav containers */
 .nav-mega {
   background: #130f25;
   list-style: none;
+  position: relative;
 }
 
 .nav-mega--container {
@@ -164,13 +181,14 @@ a {
 }
 
 .menu--link__img {
-  margin: 0 0.5rem;
+  margin-right: 0.6rem;
 }
 
 .ps-page {
   color: #a5aacf;
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 500;
+  text-wrap: nowrap;
 }
 .menu--link {
   display: flex;
@@ -181,7 +199,7 @@ a {
 }
 .menu--link__img {
   border-left: 1px solid var(--color-border);
-  padding-left: 4rem;
+  padding-left: 2rem;
 }
 
 ul li {
@@ -201,15 +219,14 @@ ul li {
   justify-content: end;
   gap: 3.1rem;
   margin: 0;
+  margin-left: 16rem;
 }
 
 .logo {
+  position: relative;
+  top: 4px;
   height: 3.1rem;
   width: 3.1rem;
-}
-
-.page-list--container {
-  margin-left: 15rem;
 }
 
 /* nav nav */
@@ -227,6 +244,7 @@ ul li {
 .menu-link a {
   color: #a5aacf;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 .nav-brand {
   display: flex;
@@ -273,11 +291,12 @@ ul li {
 .icon--search {
   width: 20px;
   height: 20px;
+  margin-left: 2rem;
 }
 
 .icon-cont {
   display: flex;
-  margin: 0 0 0 4rem;
+  margin: 0 0 0 5rem;
   padding: 0;
 }
 
