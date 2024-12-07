@@ -472,6 +472,10 @@ ul li {
 
 /* flex blocks */
 
+.flexblock--container {
+  padding: 10rem 0;
+}
+
 .flex-block-head p,
 .flex-block-head h2 {
   color: rgb(19, 15, 37);
