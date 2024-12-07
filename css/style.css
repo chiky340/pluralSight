@@ -520,6 +520,15 @@ ul li {
   width: 100%;
 }
 
+.flex-block-img-head {
+  width: 65%;
+  margin-bottom: 4rem;
+}
+
+.p-with-comma::before {
+  content: url(../img/pink-quotations.webp);
+}
+
 /* link arrow */
 
 .link-arrow {
