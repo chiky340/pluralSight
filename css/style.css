@@ -487,10 +487,11 @@ ul li {
 }
 
 .flex-block-head p {
-  line-height: normal;
+  line-height: 2.38rem;
   letter-spacing: normal;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin: 0 0 2rem;
+  font-weight: 400;
 }
 
 .flex-block-cont {
@@ -504,13 +505,18 @@ ul li {
 }
 
 .flex-block-article {
-  width: 80%;
+  width: 100%;
 }
 .flex-block-img-cont {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .flex-block-img {
+  width: 98%;
+}
+.space-hide-sm-screen {
+  height: 8rem;
   width: 100%;
 }
 
