@@ -117,10 +117,20 @@ a {
   background: #1b1834;
   color: var(--color-body);
   border: 2px solid var(--color-border);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 0;
   border-radius: 999px;
   font-weight: 800;
+  padding: 1.2px 3.4rem;
+}
+.btn-small__primary {
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 1.3rem;
+  margin: 0;
+  border-radius: 999px;
+  font-weight: 800;
+  padding: 1.2rem 3.4rem;
 }
 .btn-small__outline:hover {
   background: var(--color-border);
@@ -143,6 +153,9 @@ a {
   font-weight: 800;
   border-radius: 999px;
   padding: 1.8rem 3.4rem;
+}
+
+.btn-small__outline {
 }
 /* nav containers */
 .nav-section {
@@ -386,7 +399,7 @@ ul li {
 /* company container header */
 
 .company-container {
-  padding: 10rem 1.5rem;
+  padding: 10rem 1.5rem 0;
 }
 
 .cont-container {
@@ -539,4 +552,47 @@ ul li {
 
 .link-arrow:hover::after {
   margin-left: 10px;
+}
+
+/* empower container html */
+
+.empower-container {
+  padding: 10rem 0;
+  background: #2a2753;
+  background-image: url(../img/BG-line-squigle.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.empower-header {
+  padding: 1.5rem;
+}
+.empower-header h2 {
+  padding: 1.5rem;
+  margin-bottom: 0 0 2rem;
+}
+
+.empower {
+  display: flex;
+}
+
+.empower--container {
+  padding: 0 1.5rem;
+}
+
+.empower-container-head {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0 0 2rem;
+  color: #fff;
+}
+
+.empower-container-p {
+  font-size: 1.8rem;
+}
+
+.empower-img img {
+  width: 100%;
 }
