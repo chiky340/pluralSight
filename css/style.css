@@ -121,7 +121,7 @@ a {
   margin: 0;
   border-radius: 999px;
   font-weight: 800;
-  padding: 1.2px 3.4rem;
+  padding: 1.2rem 3.4rem;
 }
 .btn-small__primary {
   background: var(--color-primary);
@@ -155,8 +155,6 @@ a {
   padding: 1.8rem 3.4rem;
 }
 
-.btn-small__outline {
-}
 /* nav containers */
 .nav-section {
   position: sticky;
@@ -570,8 +568,7 @@ ul li {
   padding: 1.5rem;
 }
 .empower-header h2 {
-  padding: 1.5rem;
-  margin-bottom: 0 0 2rem;
+  margin: 0 0 2rem;
 }
 
 .empower {
