@@ -631,7 +631,6 @@ ul li {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 2rem;
 }
 
 .accordion:after {
@@ -660,9 +659,11 @@ ul li {
   background-position: right bottom;
 }
 
-.accordion h2 {
-  margin: 0;
-  line-height: 0.5;
+.accordion p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 0;
+  padding-top: 2rem;
 }
 
 .accordion-section h1,
