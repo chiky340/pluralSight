@@ -697,3 +697,9 @@ ul li {
   font-size: 1.7rem;
   margin-bottom: 2rem;
 }
+
+.ac-text {
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
