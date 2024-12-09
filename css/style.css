@@ -557,6 +557,23 @@ ul li {
   margin-left: 10px;
 }
 
+.link-arrow-ac {
+  color: #ff5297;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.link-arrow-ac::after {
+  content: ">";
+  margin-left: 5px;
+  transition: margin 0.15s;
+}
+
+.link-arrow-ac:hover::after {
+  margin-left: 10px;
+}
+
 /* empower container html */
 
 .empower-container {
@@ -597,4 +614,86 @@ ul li {
 
 .empower-img img {
   width: 100%;
+}
+
+/* accordion section */
+
+.accordion-section {
+  background-color: #242145;
+}
+
+.accordion {
+  background-color: inherit;
+  color: #fff;
+  cursor: pointer;
+  padding: 2rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 2rem;
+}
+
+.accordion:after {
+  content: "\2193";
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2191";
+}
+
+.panel {
+  border-bottom: 1px solid #a5aacf;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-ac {
+  background-image: url(../img/accordion-section-lines-opt.webp);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.accordion h2 {
+  margin: 0;
+  line-height: 0.5;
+}
+
+.accordion-section h1,
+.accordion-section h2,
+.accordion-section p {
+  color: #fff;
+}
+
+.accordion-head {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.grid-card-h2 {
+  margin-bottom: 2rem;
+  font-size: 3.6rem;
+}
+.grid-card-head-ac {
+  padding: 0 1.5rem 5rem;
+}
+
+.accordion-ac {
+  padding: 0 1.5rem;
+}
+
+.accordion-section {
+  padding: 10rem 0;
+}
+
+.grid-accordion-text {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
 }
