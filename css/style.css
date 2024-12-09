@@ -181,6 +181,12 @@ a {
   align-items: center;
   background-color: inherit;
   text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #a5aacf;
+  height: 100%;
 }
 
 .menu--link__img {
@@ -193,13 +199,7 @@ a {
   font-weight: 500;
   text-wrap: nowrap;
 }
-.menu--link {
-  display: flex;
-  align-items: center;
-  font-size: 1.4rem;
-  color: #a5aacf;
-  height: 100%;
-}
+
 .menu--link__img {
   border-left: 1px solid var(--color-border);
   padding-left: 2rem;
@@ -246,7 +246,7 @@ ul li {
 
 .menu-link a {
   color: #a5aacf;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   font-weight: bold;
 }
 .nav-brand {
@@ -361,18 +361,23 @@ ul li {
 .hero-topics {
   background-image: url(../img/bf-banner-desktop-left.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: fill;
+  background-position: bottom;
   display: flex;
-  margin-top: 7rem;
-  align-items: start;
+
+  padding: 7rem 0;
 }
 
 .hero-img {
   display: inline-block;
 }
 
-.hero-img img {
+.hero--img {
   margin: 0 1rem 1rem 1rem;
+}
+.hero--img:hover {
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
 }
 
 .hero-topics-title {
