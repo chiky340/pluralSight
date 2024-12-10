@@ -706,3 +706,46 @@ ul li {
 }
 
 /* exp section */
+
+.exp {
+  display: flex;
+  padding: 10rem 0;
+  background-image: url(../img/Vector-opt.webp);
+}
+
+.img-exp,
+.main-exp {
+  padding: 0 1.5rem;
+}
+
+.exp-header {
+  font-size: 3.8rem;
+  color: #130f25;
+  font-weight: 800;
+  margin: 0 0 2rem;
+}
+
+.exp-li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #404376;
+  color: #404376;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding-left: 0;
+}
+
+.exp-li:hover {
+  background: #efefef;
+}
+.exp-li p::after {
+  content: "\2192";
+  color: #404376;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 2.5rem;
+}
+
+.exp-ul {
+  padding-left: 0;
+}
