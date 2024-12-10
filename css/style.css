@@ -711,6 +711,8 @@ ul li {
   display: flex;
   padding: 10rem 0;
   background-image: url(../img/Vector-opt.webp);
+  background-color: #f4f7fa;
+  justify-content: space-between;
 }
 
 .img-exp,
@@ -718,8 +720,15 @@ ul li {
   padding: 0 1.5rem;
 }
 
+.img-exp {
+  width: 50%;
+}
+.img-exp img {
+  width: 100%;
+}
+
 .exp-header {
-  font-size: 3.8rem;
+  font-size: 4rem;
   color: #130f25;
   font-weight: 800;
   margin: 0 0 2rem;
