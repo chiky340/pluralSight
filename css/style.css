@@ -656,11 +656,11 @@ ul li {
 .accordion-ac {
   background-image: url(../img/accordion-section-lines-opt.webp);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right;
 }
 
 .accordion p {
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-weight: bold;
   line-height: 0;
   padding-top: 2rem;
