@@ -760,6 +760,26 @@ ul li {
 }
 
 /* card section */
+.card-section {
+  padding: 10rem 0;
+}
+
+.card-link,
+.card-section {
+  padding: 0 1.5rem;
+}
+
+.card-head-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.card-header {
+  display: inline-block;
+
+  margin: 0 0 2rem;
+}
 
 .card-section-flex {
   display: flex;
@@ -807,7 +827,7 @@ ul li {
 
 .card-span--clock {
   align-items: center;
-  padding-right: 10px;
+  padding-right: 2rem;
 }
 
 .img-clock {
