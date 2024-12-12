@@ -763,4 +763,58 @@ ul li {
 
 .card-section-flex {
   display: flex;
+  width: 100%;
+}
+
+.card-container {
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.6rem;
+}
+
+.card-figure {
+  width: 100%;
+}
+
+.card-figure img {
+  width: 100%;
+}
+
+.card-head-text {
+  color: #130f25;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 2rem 0;
+}
+
+.card-body-text {
+  color: #130f25;
+  margin: 0 0 2rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.card-span {
+  color: #130f25;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.card-span--clock {
+  align-items: center;
+  padding-right: 10px;
+}
+
+.img-clock {
+  position: relative;
+  top: 5px;
+}
+
+.card-link {
+  margin: 2rem 0 0;
 }
