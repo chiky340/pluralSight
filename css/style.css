@@ -364,7 +364,6 @@ ul li {
   background-size: fill;
   background-position: bottom;
   display: flex;
-
   padding: 7rem 0;
 }
 
@@ -762,22 +761,28 @@ ul li {
 /* card section */
 .card-section {
   padding: 10rem 0;
+  background-image: url(../img/BG-line-squigle.png);
+  background-position: top -590px right -75px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #2a2753;
 }
 
-.card-link,
-.card-section {
+.card-section--head {
+  flex-grow: 1;
+  padding: 0 1.5rem;
+}
+
+.card-link {
   padding: 0 1.5rem;
 }
 
 .card-head-section {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 4rem;
 }
 
 .card-header {
-  display: inline-block;
-
   margin: 0 0 2rem;
 }
 
@@ -835,6 +840,7 @@ ul li {
   top: 5px;
 }
 
-.card-link {
+.card-link-c {
   margin: 2rem 0 0;
+  padding: 0;
 }
