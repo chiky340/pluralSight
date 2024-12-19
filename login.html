@@ -18,6 +18,48 @@
     />
   </head>
   <body style="background-color: red">
-    <section class="plan-pricing"></section>
+    <section class="skill-wrapper">
+      <div class="skill-head-wrapper">
+        <div class="skill-head">
+          <div class="skill-head-img-wr">
+            <img
+              src="img/Pluralsight-Product-Logo-Skills-Color-OnDark.webp"
+              class="skill-head-img"
+            />
+          </div>
+          <div class="skill-title">
+            <h2 class="skill-title__h2">Plans & pricing</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-skill-block">
+        <div class="toggle-btn-container">
+          <div class="toggle-container">
+            <div class="toggle">
+              <input type="radio" id="individual" name="plan" checked />
+              <label for="individual" class="toggle-btn">Individual</label>
+              <input type="radio" id="team" name="plan" />
+              <label for="team" class="toggle-btn">Team</label>
+              <div class="active-bg"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-skill-block-cont">
+          <div class="main-skill-wr">
+            <div class="toggle-container-skill">
+              <span>Monthly</span>
+              <span></span>
+              <span>Yearly</span>
+            </div>
+
+            <div class="pricing-cards"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
