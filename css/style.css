@@ -885,8 +885,10 @@ ul li {
 }
 
 .main-skill-block-cont {
+  display: flex;
+  justify-content: center; /* Center the child element horizontally */
+  align-items: center; /* Optionally center vertically */
   margin: 0 auto 28px;
-  width: 100%;
 }
 
 .main-skill-wr {
@@ -894,8 +896,8 @@ ul li {
   background: rgba(19, 15, 37, 0.5);
   border-radius: 24px;
   margin: 0 auto 60px;
-  display: block;
-  /* width: 100%; */
+  display: inline-block; /* This makes the container size based on content */
+  /* Remove width: 100% so it adjusts based on content */
 }
 
 .toggle-container-skill {
@@ -904,9 +906,8 @@ ul li {
 }
 
 .toggle-container-skill {
-  /* display: flex;
-  justify-content: center; */
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .toggle-btn-container {
